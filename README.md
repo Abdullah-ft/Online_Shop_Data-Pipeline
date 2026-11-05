@@ -90,12 +90,6 @@ The 3 weather responses became one table: `city`, `date`, `max_temp`, `rain_mm`.
 
 ## ⭐ 4. Warehouse design (Part 3)
 
-### 🖼️ Star schema
-
-<!-- Replace the file name below with your picture -->
-
-![Star schema]("C:\Users\User\Downloads\Starschema.png")
-
 ```
 dim_customer (customer_key PK, customer_id, name, city, segment, signup_date,
               valid_from, valid_to, is_current)
